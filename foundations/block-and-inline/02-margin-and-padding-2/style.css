@@ -1,27 +1,39 @@
 body {
-  background: #eee;
-  font-family: sans-serif;
+    background: #eee; /* Sets the background color of the body to a light grey */
+    font-family: sans-serif; /* Sets the font family of the body to sans-serif */
 }
 
 .card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
+    width: 400px; /* Sets the width of the card to 400 pixels */
+    background: #fff; /* Sets the background color of the card to white */
+    margin: 16px auto; /* Adds a 16-pixel margin on the top and bottom, and centers the card horizontally */
+    padding: 8px; /* Adds an 8-pixel padding inside the card */
 }
 
 .title {
-  background: #e3f4ff;
+    background: #e3f4ff; /* Sets the background color of the title to a light blue */
+    margin: 8px; /* Adds an 8-pixel margin around the title */
+    font-size: 16px; /* Sets the font size of the title to 16 pixels */
+    padding: 8px; /* Adds an 8-pixel padding inside the title */
 }
 
 .content {
-  background: #e3f4ff;
+    background: #e3f4ff; /* Sets the background color of the content to a light blue */
+    margin: 8px; /* Adds an 8-pixel margin around the content */
+    font-size: 16px; /* Sets the font size of the content to 16 pixels */
+    padding: 16px 8px; /* Adds a 16-pixel padding on the top and bottom, and an 8-pixel padding on the left and right */
 }
 
 .button-container {
-  background: #e3f4ff;
+    background: #e3f4ff; /* Sets the background color of the button container to a light blue */
+    text-align: center; /* Centers the text inside the button container */
+    padding: 8px; /* Adds an 8-pixel padding inside the button container */
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
+    background: white; /* Sets the background color of the button to white */
+    border: 1px solid #eee; /* Adds a light grey border around the button */
+    display: block; /* Makes the button a block-level element */
+    margin: 0 auto; /* Centers the button horizontally */
+    padding: 8px 24px; /* Adds an 8-pixel padding on the top and bottom, and a 24-pixel padding on the left and right */
 }
