@@ -6,7 +6,7 @@ html {
 
 .container {
   display:grid;
-  grid-template-column: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 5fr 1fr;
   gap: 15px;
   text-align: center;
